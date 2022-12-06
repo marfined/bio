@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+
+		<meta charset="utf-8">
+
+		<link rel="stylesheet" type="text/css" href="../style.css">
+
+		<link rel="shortcut icon" href="group 2.png" type="image/x-icon">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>Лишайники</title>
+
+	</head>
+
+	<body>
+
+		<h2 style="font-size: 20px; font-family: Comic Sans ms">Лишайники (лат. Lichenes) – это симбиотические ассоциации, включающие в себя водорослевый компонент (фотобионт или фикобионт) и грибной компонент (микобионт).
+		На данный момент насчитывается около 25000 видов лишайников и ежегодно список известных видов пополняется. При этом в Беларуси насчитывается более 600 видов</h2>
+
+		<hr>
+
+		<h1 style="letter-spacing: 5px; text-align: center;">Почему их так называют?</h1>
+
+		<p style="font-size: 17px; letter-spacing: 1px; font-family: Comic Sans MS;">Русское название лишайники получили за визуальное сходство с проявлениями некоторых кожных заболеваний, получивших общее название «лишаи». Латинское название происходит от др.-греч. (лат. lichen) и переводится как «лишай», что связано с характерной формой плодовых тел некоторых представителей.</p>
+
+		<hr>
+
+		<p style="font-size: 17px; letter-spacing: 1px; font-family: Comic Sans MS;">Возникли лишайники около 400 млн. лет назад.
+		Однако как организмы они были известны учеными в народе еще в давние времена. “Отец ботаники” – Теофраст (371–286 г. до н. э.) дал описание двух лишайников – уснеи (Usnea) и рочеллы (Rocella). Рочеллу в то время использовали для получения красящих веществ.
+		</p>
+
+		<hr>
+
+		<p style="font-size: 17px; letter-spacing: 1px; font-family: Comic Sans MS;">Лишайники известны своей способностью к выживанию в самых неблагоприятных экологических условиях. Именно поэтому лишайники являются повсеместно распространенными организмами, покрывающими 8% поверхности Земли. Недаром они называются “пионерами” биоценозов – являются, как правило, первыми организмами, заселяющими субстрат в процессе первичной сукцессии. Лишайники способны выдерживать экстремальные температуры. Например, в Антарктиде, лишайники произрастают в горах на высоте 2400 м над уровнем моря, выдерживая при этом температуру до -60°C.</p>
+
+		<hr>
+
+		<p style="font-size: 17px; letter-spacing: 1px; font-family: Comic Sans MS;">Лишайники – самые медленнорастущие организмы на планете. Скорость роста их слоевища составляет обычно 2–3 мм в год. Безусловно данный факт делает их довольно трудными объектами для изучения.</p>
+
+		<hr>
+
+		<p style="font-size: 47px; letter-spacing: 1px; font-family: Comic Sans MS; text-align: center; color: green;">Лихенобиота Ченковского лесничества</p>
+
+		<button class="accordion">Arthonia Atra</button>
+
+		<div class="panel">
+  		    
+  		    <p>В результате проведенных исследований был составлен список лишайников и лихенофильных грибов, включающий 131 вид, относящийся к 69 родам, 27 семействам, 13 порядкам, 6 классам отдела Ascomycota. Виды, найденные нами в результате полевых сборов и приводимые здесь впервые для изучаемой территории, обозначены звездочкой.</p>
+		
+		</div>
+
+		<br>
+		<br>
+		<br>
+
+    <script>
+		var acc = document.getElementsByClassName("accordion");
+		var i;
+
+		for (i = 0; i < acc.length; i++) {
+  		acc[i].addEventListener("click", function() {
+    	this.classList.toggle("active");
+    	var panel = this.nextElementSibling;
+   		if (panel.style.maxHeight) {
+    	 panel.style.maxHeight = null;
+    	} else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    }
+  });
+}
+</script>
+
+	<a href="../index.html"  class="backbut">Назад</a>
+
+	</body>
+
+</html>
